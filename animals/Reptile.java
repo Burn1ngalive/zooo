@@ -1,5 +1,5 @@
 package animals;
-
+//змея наследуется от рептилий(reptile), не от позвоночных(vertebrate)
 public abstract class Reptile extends Vertebrate {
 
     public Reptile(String name, int age, double weight) {

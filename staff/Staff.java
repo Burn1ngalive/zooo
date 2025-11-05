@@ -1,5 +1,5 @@
 package staff;
-
+//метод взаимодействия 
 
 import zoo.Enclosure;
 

@@ -1,5 +1,5 @@
 package staff;
-
+//смотритель кормит всех животных не зная типа-> полиморфизм 
 import zoo.Enclosure;
 import animals.Animal;
 

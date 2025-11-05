@@ -1,5 +1,5 @@
 package animals;
-
+//наследование: конкретные животные наследуются от класса, в целом методы для позвоночных. поля private инкапсуляция(геттеры,сеттеры)
 public abstract class Vertebrate implements Animal {
     private String name;
     private int age;

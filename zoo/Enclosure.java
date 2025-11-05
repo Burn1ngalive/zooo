@@ -1,5 +1,5 @@
 package zoo;
-
+//инкапсуляция private-> добавляет/удаляет животного, также полиморфизм(хранение через интерфейс animal)
 import animals.Animal;
 import java.util.ArrayList;
 import java.util.List;

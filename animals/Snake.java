@@ -1,5 +1,5 @@
 package animals;
-
+//makesound- полиморфизм, один и тот же метод, но поведение разное из за конкретного животного
 public class Snake extends Reptile {
 
     public Snake(String name, int age, double weight) {

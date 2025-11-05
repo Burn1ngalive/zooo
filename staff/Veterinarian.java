@@ -1,5 +1,5 @@
 package staff;
-
+// полиморфизм в методе examineanimal берет animal -> вызывает makesound
 
 
 public class Veterinarian implements Staff {

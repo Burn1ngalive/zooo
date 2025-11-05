@@ -2,7 +2,8 @@ import animals.*;
 import staff.Veterinarian;
 import staff.Zookeeper;
 import zoo.Enclosure;
-
+//опять же метод makesound или feed работает для каждого по разному-> полиморфизм
+//инкапсуляция-> прямого списка к животным нет все делает метод enclosure 
 public class Main {
     public static void main(String[] args) {
        
