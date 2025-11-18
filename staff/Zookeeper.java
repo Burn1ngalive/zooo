@@ -1,24 +1,20 @@
 package staff;
-//смотритель кормит всех животных не зная типа-> полиморфизм 
-import zoo.Enclosure;
-import animals.Animal;
 
-public class Zookeeper implements Staff {
+import zoo.Enclosure;
+
+public class Zookeeper extends Staff {
+
+    public Zookeeper() {
+        super("unknown", 0);
+    }
 
     @Override
     public void work() {
-        System.out.println("Смотритель ухаживает за животными");
+        System.out.println("Смотритель убирает в вольере.");
     }
 
-    @Override
-    public void cleanEnclosure(Enclosure enclosure) {
-        System.out.println("Смотритель чистит вольер");
-    }
-
-    
     public void feedAnimalsInEnclosure(Enclosure enclosure) {
-        for (Animal a : enclosure.getAnimals()) {
-            a.feed();  
-        }
+        System.out.println("Смотритель кормит всех животных в вольере.");
+        enclosure.feedAll();
     }
 }

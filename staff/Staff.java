@@ -1,9 +1,13 @@
 package staff;
-//метод взаимодействия 
 
-import zoo.Enclosure;
+public abstract class Staff {
+    protected String id;
+    protected double salary;
 
-public interface Staff {
-    void work();
-    void cleanEnclosure(Enclosure enclosure);
+    public Staff(String id, double salary) {
+        this.id = id;
+        this.salary = salary;
+    }
+
+    public abstract void work();
 }

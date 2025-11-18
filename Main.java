@@ -2,11 +2,10 @@ import animals.*;
 import staff.Veterinarian;
 import staff.Zookeeper;
 import zoo.Enclosure;
-//опять же метод makesound или feed работает для каждого по разному-> полиморфизм
-//инкапсуляция-> прямого списка к животным нет все делает метод enclosure 
+
 public class Main {
     public static void main(String[] args) {
-       
+
         Lion simba = new Lion("Симба", 5, 190);
         Elephant dumbo = new Elephant("Дамбо", 10, 5000);
         Snake kaa = new Snake("Каа", 2, 15);
@@ -28,9 +27,8 @@ public class Main {
 
         System.out.println("\nДействия персонала:");
         vet.work();
-        vet.examineAnimal(simba);  
+        vet.examineAnimal(simba);
         keeper.work();
         keeper.feedAnimalsInEnclosure(zoo);
-
     }
 }
